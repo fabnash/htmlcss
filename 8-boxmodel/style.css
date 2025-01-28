@@ -1,0 +1,66 @@
+/* Reset default margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling the box with a border */
+  .box1 {
+    background-color: #5b5e53; /* Box background color */
+    color: white;              /* Text color inside the box */
+    width: 300px;              /* Width of the box */
+    height: 200px;             /* Height of the box */
+    padding: 20px;             /* Padding inside the box */
+    border: 5px solid #2c3e50; /* Solid border around the box */
+    margin: 40px auto;         /* Margin around the box */
+    text-align: center;        /* Center text inside the box */
+    border-radius: 10px;       /* Optional: rounded corners */
+  }
+  
+  /* Add dashed border for another example */
+  .box2 {
+    background-color: #16a085; /* Background color for dashed box */
+    width: 300px;
+    height: 200px;
+    border: 5px dashed #2c3e50; /* Dashed border */
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 1px; /* Rounded corners */
+  }
+  
+  /* Add dotted border for another example */
+  .box22 {
+    background-color: #9b59b6; /* Background color for dotted box */
+    width: 300px;
+    height: 200px;
+    border: 5px dotted #2c3e50; /* Dotted border */
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+  }
+  .box{
+    /* Different borders for each side */
+
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid red;
+    border-right: 5px dashed blue;
+    border-bottom: 5px dotted green;
+    border-left: 5px solid yellow;
+    padding: 20px;
+    color: rgb(250, 247, 247);
+    text-align: center;
+    margin: 40px auto;
+    background-color: #2c3e50;
+    font-size: larger;
+  }
+  
+  
+
+
+  

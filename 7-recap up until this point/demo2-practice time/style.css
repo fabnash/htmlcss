@@ -1,0 +1,12 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/realistic-luxury-background_52683-82926.jpg?ga=GA1.1.1913233095.1737508861&semt=ais_hybrid);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

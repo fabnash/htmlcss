@@ -1,0 +1,64 @@
+ 
+body{  
+    margin:0px; 
+    font-family: "Anton", serif; 
+}  
+.header{  
+        padding: 10px;  
+        background-color:#455e64;  
+        text-align: center;  
+       }  
+  .header h2{  
+    color: black; }  
+      /*===============[Nav CSS]==========*/  
+      .nav{  
+        background-color:#243238;  
+        padding: 5px; 
+        text-decoration: none; 
+        
+        }  
+       
+      .nav li{  
+      list-style: none;  
+      display: inline-block;  
+      padding: 8px; 
+      
+      
+       }  
+   .nav a{  
+    color: #fff;  
+    text-decoration: none;
+   }  
+     
+  .nav ul li a:hover{  
+    text-decoration: none;  
+    color: #7fffd4;  
+   }  
+      .lside{  
+         float: left;  
+       width: 80%;  
+       min-height: 440px;  
+       background-color: #f0f8ff;  
+       text-align: center;  
+      }  
+   .rside  
+   {  
+    text-align: center;  
+    float: right;  
+    width: 20%;  
+      min-height: 440px;  
+     background-color:  #c1cdcd;  
+   }  
+   .footer{  
+    height: 44px;  
+       background-color:#455e64;   
+   text-align: center;   
+   padding-top: 5px;
+padding-bottom: 5px;}  
+
+   .footer p{  
+       color:  #ffffff;  
+   }  
+
+
+    /*===============[Responsive CSS]==========*/

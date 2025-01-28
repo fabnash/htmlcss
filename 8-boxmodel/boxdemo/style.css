@@ -1,0 +1,25 @@
+/* Reset default margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling the box element */
+  .box {
+    background-color: #4CAF50; /* Background color of the box */
+    color: white;              /* Text color inside the box */
+    width: 300px;              /* Width of the box */
+    height: 200px;             /* Height of the box */
+    padding: 20px;             /* Space inside the box (content area) */
+    border: 5px solid #2c3e50; /* Border around the box */
+    margin: 40px auto;         /* Space outside the box */
+    box-sizing: border-box;    /* Include padding and border in the total width/height */
+    text-align: center;        /* Center the text inside the box */
+  }
+  
+  /* Optional: Adding hover effect */
+  .box:hover {
+    background-color: #45a049;
+  }
+  
